@@ -1,4 +1,13 @@
+<!--
+Creator: Justin Hair
 
+Credits:
+"&copy;" in footer came from github copilot.
+
+https://www.w3schools.com/html/html_tables.asp 
+Used as reference to help make the table. 
+
+-->
 
 
 
@@ -14,18 +23,50 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="/docs/subpages/about.html">About</a>
-            <a href="/docs/subpages/contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/docs/subpages/about.html">About</a></li>
+                <li><a href="/docs/subpages/booking.html">Booking</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h1>Pulse Airlines</h1>
-        <p>Pulse Airlines, or as we're known, PulseAir, is an airline unlike any other! Most airlines are quiet, sleepy, and frankly, quite boring. Not Here. At PulseAir, we're all about vibes. Ride in one of our uniquely stylish A22-300 airplanes, eat like you're at a fast-food joint 30,000 feet in the air, and let you hair down, because here, it's all about vibes.<b>Book one of our low-cost fares today! We serve in major hubs across the US, such as LAX, DEN, SLC, and many others!</b></p>
-        <img src="images/main/logo.png" alt="Pulse Airlines Logo">
+        <section id="home_section">
+            <h1>Pulse Airlines</h1>
+            <p>Pulse Airlines, or as we're known, PulseAir, is an airline unlike any other! Most airlines are quiet, sleepy, and frankly, quite boring. Not Here. At PulseAir, we're all about vibes. Ride in one of our uniquely stylish A22-300 airplanes, eat like you're at a fast-food joint 30,000 feet in the air, and let your hair down, because here, it's all about vibes.</p>
+            <p>Book one of our low-cost fares today! We serve in major hubs across the US, such as LAX, DEN, SLC, and many others!</p>
+            <img src="images/main/logo.png" alt="Pulse Airlines logo">
+        </section>
+
+        <h2>Our Fairs:</h2>
+
+        <table id="fair_table">
+        <tr>
+            <th>Fair</th>
+            <th>Cost</th>
+            <th>Destination</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>$40</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Vibe</td>
+            <td>$80</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Party</td>
+            <td>$100</td>
+            <td>Chile</td>
+        </tr>
+        </table>
     </main>
     <footer>
-        <!--No footer was included in the site plan. -->
+        <p>&copy; 2024 Pulse Airlines. All rights reserved.</p>
+        <p>Email: PulseAir@gmail.com</p>
+        <p>Phone: 1-800-PULSE-AIR</p>
     </footer>
 </body>
 </html>

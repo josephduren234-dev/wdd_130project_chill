@@ -5,9 +5,9 @@
 - [x] Extract needed images
 - [x] Obtain the rest of the contact information (1 missing)
 - [x] Get Client to create the missing 2 icons
-- [ ] Recievce updated wireframe
-- [ ] Complete index.html (main page)
-- [ ] Work on homepage.css (homepage CSS)
+- [x] Recievce updated wireframe
+- [x] Complete index.html (main page)
+- [ ] Complete homepage.css (homepage CSS)
 
 
 ## Junior Developer: Pagan, Benjamin Parker
