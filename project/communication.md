@@ -3,7 +3,7 @@
 | Name | Role | Contact |
 |------|------|---------|
 | Justin Hair | Team Lead | justinhair225@gmail.com |
-| Ben Pagan | Junior Developer | **MISSING** |
+| Ben Pagan | Junior Developer | paganbenjamin50@gmail.com |
 | Seth Shepherd | Junior Developer | shepherd8635@gmail.com |
 
 ## Client Info
