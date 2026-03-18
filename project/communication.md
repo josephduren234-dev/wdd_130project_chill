@@ -9,3 +9,7 @@
 ## Client Info
 - **Joseph Duren** — Client
 - Email: dur25010@byui.edu
+
+
+
+# This document was created with the assistance of Github Copilot

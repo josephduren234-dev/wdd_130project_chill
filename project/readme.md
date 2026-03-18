@@ -13,8 +13,8 @@ PulseAir is a concept website for the world’s first party airline — where th
 - Families with young kids
 - Anyone seeking a fun, eventful flying experience
 
-## Main Features
-- **Homepage:**
+## Main Features 
+- **Homepage:** 
   - Brief description of PulseAir and its unique concept
   - Image of a PulseAir plane
   - Logo in the top left of the navigation bar
@@ -54,3 +54,7 @@ PulseAir is a concept website for the world’s first party airline — where th
 
 ## License
 This project is for educational purposes only.
+
+
+
+# This document was created with the assistance of Github Copilot

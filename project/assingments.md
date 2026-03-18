@@ -16,3 +16,7 @@ Junior Developer: Shepherd, Seth Ryan
 - [ ] Complete booking.html (child page)
 - [ ] Complete booking.css (booking page CSS)
 
+
+
+
+# This document was created with the assistance of Github Copilot
