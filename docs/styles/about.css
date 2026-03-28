@@ -1,1 +1,58 @@
-/* Styles for about page */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap");
+
+@font-face {
+	font-family: "Rostex";
+	src: url("fonts/Rostex-Regular.ttf") format("truetype");
+}
+
+:root {
+	--color-black: #000000;
+	--color-neon-blue: #1f51ff;
+	--color-dark-gray: #a9a9a9;
+	--font-accent: "Orbitron", "Trebuchet MS", sans-serif;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.9);
+	border-bottom: 2px solid var(--color-neon-blue);
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+	margin: 0;
+	padding: 0.9em 1.2em;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 1.1em;
+}
+
+nav a {
+	font-family: var(--font-accent);
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.35em 0.7em;
+	border-radius: 999px;
+	border: 1px solid transparent;
+}
+
+nav a:hover,
+nav a:focus-visible {
+	color: var(--color-neon-blue);
+	border-color: var(--color-neon-blue);
+}
+
+footer {
+	margin-top: 2em;
+	padding: 1.6em 1em;
+	text-align: center;
+	background: var(--color-black);
+	border-top: 2px solid var(--color-neon-blue);
+}
+
+footer p {
+	margin: 0.3em 0;
+	color: var(--color-dark-gray);
+	font-family: var(--font-accent);
+	letter-spacing: 0.03em;
+}
