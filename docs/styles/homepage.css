@@ -1,1 +1,142 @@
-/* Styles for homepage */
+/*
+Created by Justin Hair
+
+
+Github copilot assisted in:
+- setting up root and fonts
+- creativeness for header & footer
+- making table fancy
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap");
+
+@font-face {
+	font-family: "Rostex";
+	src: url("fonts/Rostex-Regular.ttf") format("truetype");
+}
+
+:root {
+	--color-black: #000000;
+	--color-neon-blue: #1f51ff;
+	--color-dark-neon-blue: #133547;
+	--color-dark-gray: #a9a9a9;
+
+	--font-heading: "Rostex", "Orbitron", sans-serif;
+	--font-accent: "Orbitron", "Trebuchet MS", sans-serif;
+	--font-body: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+body {
+	margin: 0;
+	color: var(--color-black);
+	font-family: var(--font-body);
+}
+
+
+/* Header */
+header {
+	background: rgba(0, 0, 0, 0.9);
+	border-bottom: 2px solid var(--color-neon-blue);
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+	margin: 0;
+	padding: 0.9em 1.2em;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 1.1em;
+}
+
+nav a {
+	font-family: var(--font-accent);
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.35em 0.7em;
+	border-radius: 999px;
+	border: 1px solid transparent;
+	transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus-visible {
+	color: var(--color-neon-blue);
+	border-color: var(--color-neon-blue);
+	box-shadow: 0 0 14px rgba(31, 81, 255, 0.45);
+}
+
+
+
+
+main {
+    background-color: rgba(207, 206, 206, 0.9);
+    border: 1px solid var(--color-dark-gray);
+    border-radius: 8px;
+    max-width: 1000px;
+	margin: 15px auto;
+	text-align: center;
+}
+
+main img {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Table */
+#fair_table {
+	width: min(750px, 90%);
+	margin: 1.2em auto 2em;
+	border-spacing: 0;
+	background: #ffffff;
+	border: 1px solid var(--color-dark-gray);
+	border-radius: 14px;
+	box-shadow: 0 12px 28px rgba(19, 53, 71, 0.18);
+}
+
+#fair_table th {
+	background: linear-gradient(90deg, rgba(19, 53, 71, 0.8), rgba(31, 81, 255, 0.8));
+	color: #ffffff;
+	font-family: var(--font-accent);
+	font-size: 0.92em;
+	padding: 0.9em 1em;;
+}
+
+#fair_table td {
+	padding: 0.85em 1em;
+	border-top: 1px solid rgba(19, 53, 71, 0.14);
+	background: rgba(169, 169, 169, 0.08);
+	font-family: var(--font-body);
+}
+
+#fair_table tr:first-child th:first-child {
+	border-top-left-radius: 14px;
+}
+
+#fair_table tr:first-child th:last-child {
+	border-top-right-radius: 14px;
+}
+
+
+
+
+/* Footer */
+footer {
+	margin-top: 2em;
+	padding: 1.6em 1em;
+	text-align: center;
+	background: var(--color-black);
+	border-top: 2px solid var(--color-neon-blue);
+}
+
+footer p {
+	margin: 0.3em 0;
+	color: var(--color-dark-gray);
+	font-family: var(--font-accent);
+	letter-spacing: 0.03em;
+}
+
+
+
+
