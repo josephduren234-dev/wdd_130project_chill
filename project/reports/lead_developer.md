@@ -1,5 +1,7 @@
 Role in Project: Lead Developer (Justin Hair)
 
+You may view the webpage I built online here:
+https://josephduren234-dev.github.io/wdd_130project_chill/ 
 
 Repository and Hosting Setup
 - I organized and set up the project files, including collecting the needed images. 
