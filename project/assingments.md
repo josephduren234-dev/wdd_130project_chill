@@ -7,7 +7,7 @@
 - [x] Get Client to create the missing 2 icons
 - [x] Recievce updated wireframe
 - [x] Complete index.html (main page)
-- [ ] Complete homepage.css (homepage CSS)
+- [x] Complete homepage.css (homepage CSS)
 
 
 ## Junior Developer: Pagan, Benjamin Parker
